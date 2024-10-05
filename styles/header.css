@@ -1,5 +1,6 @@
 header {
   padding-block: 32px;
+  font: var(--text-md);
 
   .container {
     display: flex;
@@ -32,13 +33,7 @@ header {
 
     & h1 {
       font: var(--text-lg);
-      color: var(--text-color-primary);
-
       margin-bottom: 8px;
-    }
-
-    & p {
-      font: var(--text-md);
     }
 
     & img {
